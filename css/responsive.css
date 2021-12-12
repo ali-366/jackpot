@@ -1,0 +1,76 @@
+/* Extra device css */
+@media (max-width:575px) {
+    #funfact .countUp .countUp_item {
+        margin-bottom: 20px;
+
+    }
+    #banner .banner .banner_text h2 {
+        font-size: 200px !important;
+    }
+    #banner .banner .banner_text p {
+        margin-left: 122px;
+    }
+    #banner {
+        padding-bottom: 30px;
+    }
+    #banner .banner .banner_text h2 {
+        font-size: 200px !important;
+        margin-top: -31px;
+    }
+    #banner .banner .banner_text p {
+         margin-left: 0px;
+    }
+    /* fun sec start */
+    #funfact .countUp .countUp_item h2{
+        font-size: 30px;
+    }
+    #funfact .countUp .countUp_item h3{
+        font-size: 20px;
+    }
+    #releted_game {
+        padding-top:0px;
+        padding-bottom: 70px;
+    }
+    #unlock .unlock_text h3 {
+        font-size: 30px;
+    }
+    #unlock .unlock_img{
+        margin-bottom: 60px;
+    }
+    #unlock .unlock_text {
+        text-align: center;
+    }
+    /* fun sec end */
+    #priceing .membership .price_item {
+       
+        margin-bottom: 30px;
+        
+    }
+    #unlock {
+       
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #faq-time {
+        background: #150035;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    footer {
+        text-align: center;
+    }
+    #pyment form button{
+        margin-bottom: 30px;
+    }
+    #faq-time .player .player_item ul{
+        padding-left: 0px;
+    }
+    #priceing .membership h2,
+    #releted_game h4{
+        font-size: 35px;
+    }
+    #faq-time .time h2,
+    #faq-time .faq h2 {
+        text-align: center;
+    }
+}

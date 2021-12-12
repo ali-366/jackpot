@@ -1,0 +1,643 @@
+/* create root */
+:root{
+    --bacCol:#150035;
+    --btnHovCol1:#a60084;
+    --btnHovCol2:#fe39db;
+    --btnCol1:#570dc8;
+    --btnCol2:#9e4efc;
+    --text-col:#944bff;
+    --textHovCol:#ff39dc;
+    --headCol1:#ffda26;
+    --headCol2:#faa406;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+/* common css ends */
+.Nunito-reg{
+    font-family:'Nunito', sans-serif;
+    font-weight: 400;
+}
+.Nunito-semiBold{
+    font-family:'Nunito', sans-serif;
+    font-weight: 500;
+}
+.Nunito-Bold{
+    font-family:'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.anton-reg{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+}
+.anton-semibold{
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+}
+.anton-bold{
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+}
+
+/* font-size */
+.fs_14{
+    font-size: 14px;
+}
+.fs_16{
+    font-size: 16px;
+}
+.fs_20{
+    font-size: 20px;
+}
+.fs_24{
+    font-size: 24px;
+}
+.fs_32{
+    font-size: 32px;
+}
+.fs_48{
+    font-size: 48px;
+}
+.fs_50{
+    font-size: 50px;
+}
+.fs_331{
+    font-size: 331px;
+}
+.clr{
+    clear: both;
+}
+.navbar {
+    background: var(--bacCol);
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: var(--text-col);
+}
+.navbar-light .navbar-nav .nav-link:hover.active{
+    color: var(--textHovCol);
+}
+.navbar .cta_btn {
+	background: linear-gradient(#9e4efc,#570dc8);
+	margin-left: 40px;
+	transition: all linear 0.4s;
+	-webkit-transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+	-ms-transition: all linear 0.4s;
+	-o-transition: all linear 0.4s;
+	box-shadow: 2px 5px 9px 0px #944bff;
+    text-shadow: 4px 5px 4px #290a59;
+}
+.navbar .cta_btn:hover{
+    background: linear-gradient(#fe39db,#a60084);
+    box-shadow: 2px 5px 9px 0px #fe39db;
+}
+.navbar .cta_btn:last-of-type{
+    margin-left: 20px; 
+}
+.navbar-light .navbar-toggler {
+    color: #944bff;
+    transition: all linear 0.4s;
+	-webkit-transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+	-ms-transition: all linear 0.4s;
+	-o-transition: all linear 0.4s;
+
+}
+.navbar-light .navbar-toggler:hover{
+    background: linear-gradient(#fe39db,#a60084);
+}
+.navbar-light .navbar-toggler i{
+    color: #944bff;
+  
+}
+/* banner css start  */
+
+#banner{
+    background: var(--bacCol);
+    position: relative;
+    padding-bottom: 117px;
+}
+#banner .banner_text{
+    position: relative;
+    padding-top: 100px;
+}
+
+#banner .banner .banner_text p {
+	padding: 42px;
+    margin-top: -65px;
+}
+#banner .banner .banner_text h2 {
+	background: linear-gradient(#ffda26,#faa406);
+	background-clip: text;
+	-ms-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	margin-top: -53px;
+}
+#banner .banner .banner_text a{
+  
+        background: linear-gradient(#9e4efc,#570dc8);
+        margin-left: 40px;
+        transition: all linear 0.4s;
+        -webkit-transition: all linear 0.4s;
+        -moz-transition: all linear 0.4s;
+        -ms-transition: all linear 0.4s;
+        -o-transition: all linear 0.4s;
+        box-shadow: 2px 5px 9px 0px #944bff;
+        text-shadow: 4px 5px 4px #290a59;
+  
+  
+}
+#banner .banner .banner_text a:hover{
+    background: linear-gradient(#fe39db,#a60084);
+    box-shadow: 2px 5px 9px 0px #fe39db;
+}
+/* banner css ends  */
+/* funfact css start */
+#funfact{
+    background: url(../images/fun1.jpg) no-repeat center / cover;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+#funfact .countUp .countUp_item {
+	background: linear-gradient(to right,#681cd4,#430e93);
+	padding: 10px;
+	box-shadow: 7px 9px 2px -2px #2e036e;
+	/* margin-right: -23px; */
+}
+#funfact .countUp .countUp_item h2{
+    background: linear-gradient(to top,#ffda26,#faa406);
+    background-clip: text;
+    color: transparent;
+    padding: 10px;
+ }
+ #releted_game{
+    background: url(../images/fun1.jpg) no-repeat center / cover;
+     padding-top: 50px; 
+     padding-bottom: 70px;
+ }
+ #releted_game h4{
+    background: linear-gradient(to top,#f1a027,#f8da55);
+    background-clip: text;
+    color: transparent;
+}
+#releted_game .game_item{
+    position: relative;
+    margin-top: 40px;
+   
+}
+#releted_game .game_item img{ 
+    width: 100%;
+} 
+#releted_game .game_item .overlay {
+    background: rgba(21, 0, 53, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#releted_game .game_item:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+    text-align: center;
+}
+#releted_game .game_item .overlay a{
+  padding: 10px 15px;
+  background: linear-gradient(#9e4efc,#570dc8);
+  transition: all linear 0.4s;
+  box-shadow: 2px 5px 9px 0px #944bff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-shadow: 4px 5px 4px #290a59;
+ 
+}
+#releted_game .game_item .overlay a:hover{
+    background: linear-gradient(#fe39db,#a60084);
+    box-shadow: 2px 5px 9px 0px #fe39db;
+}
+/* funfact css ends */
+/* unlock css start */
+#unlock{
+    background: #150035;
+    padding-top: 70px ;
+    padding-bottom: 70px ;
+}
+#unlock .unlock_img {
+    position: relative;
+}
+#unlock .unlock_img img{
+    width: 90%;
+}
+#unlock .unlock_img .img2 {
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 0%;
+}
+#unlock .unlock_img .img3 {
+	width: 52%;
+	position: absolute;
+	top: 73%;
+	left: 10%;
+}
+#unlock .unlock_text h3{
+    background: linear-gradient(to top,#ffda26,#faa406);
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 35px;
+}
+#unlock .unlock_text a{
+  
+    background: linear-gradient(#9e4efc,#570dc8);
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    box-shadow: 2px 5px 9px 0px #944bff;
+    text-shadow: 4px 5px 4px #290a59;
+
+}
+#unlock .unlock_text a:hover{
+background: linear-gradient(#fe39db,#a60084);
+box-shadow: 2px 5px 9px 0px #fe39db;
+}
+/* unlock css ends */
+
+
+#priceing{
+    padding-bottom: 40px;
+    background: #150035;
+}
+#priceing .membership .price_item{
+    background: linear-gradient(#9e4efc,#570dc8);
+    padding-bottom: 30px;
+    margin-top: 30px;
+    transition: all linear 0.8s;
+    -webkit-transition: all linear 0.8s;
+    -moz-transition: all linear 0.8s;
+    -ms-transition: all linear 0.8s;
+    -o-transition: all linear 0.8s;
+}
+#priceing .membership .price_item h4{
+    background: linear-gradient(#9e4efc,#570dc8);
+    line-height: 42px;
+    transition: all linear 0.8s;
+    -webkit-transition: all linear 0.8s;
+    -moz-transition: all linear 0.8s;
+    -ms-transition: all linear 0.8s;
+    -o-transition: all linear 0.8s;
+}
+#priceing .membership .price_item:hover{
+
+    margin-top: 0;
+}
+#priceing .membership h2{
+    background: linear-gradient(to top,#ffda26,#faa406);
+    background-clip: text;
+    color: transparent;
+    
+}
+#priceing .membership .price_item h2{
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    text-shadow: 4px 5px 4px #290a59;
+}
+#priceing .membership .price_item:hover h2{
+    padding: 25px 0px;
+    text-shadow: 4px 5px 4px #290a59;
+}
+#priceing .membership .price_item:hover h4{
+    background: linear-gradient(#fe39db,#a60084);
+
+}
+#priceing .membership .price_item .price p{
+    border-bottom: 1px solid #777;
+    padding-bottom: 20px;
+}
+#priceing .membership .price_item .cta_btn{
+    position: relative;
+}
+#priceing .membership .price_item .cta_btn a{
+    padding: 10px 15px;
+    background: linear-gradient(#9e4efc,#570dc8);
+    transition: all linear 0.4s;
+    box-shadow: 2px 5px 9px 0px #944bff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-shadow: 4px 5px 4px #290a59;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+#priceing .membership .price_item:hover .cta_btn a{
+      background: linear-gradient(#fe39db,#a60084);
+      box-shadow: 2px 5px 9px 0px #fe39db;
+}
+/* faq sec start */
+#faq-time{
+    background: #150035;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+#faq-time .faq{
+    position: relative;
+}
+#faq-time .faq .faq-one::before {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 65;
+	left: 0;
+	box-shadow: 0px 1px 1px 0px #290a59
+}
+#faq-time .faq h2{
+background: linear-gradient(to top,#ffda26,#faa406);
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 35px;
+    
+}
+#faq-time .time h2{
+    background: linear-gradient(to top,#ffda26,#faa406);
+        background-clip: text;
+        color: transparent;
+        padding-bottom: 35px;
+}
+#faq-time .time {
+	position: relative;
+}
+#faq-time .time::before {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 72px;
+	left: 0;
+}
+    
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 20px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #fff;
+    cursor: pointer;
+    padding: 20px 20px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.faq-body{
+    /* text-align: center; */
+   width: 100%; 
+
+   
+}
+.faq-body p{
+  color: #fff;
+   border-bottom: 1px solid #f1a027;
+   padding-bottom: 20px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active2,
+.faq-page:hover {
+    background-color: #150035;   
+}
+.active2{
+    border-top: 1px solid #f1a027;
+    
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    background-color: #150035;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active2:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+#faq-time .time .count_rutin .countDown .main .play_time{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #f1a027;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-left: 30px;
+    color: #f1a027;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+#faq-time .time .count_rutin .countDown .main .time:first-of-type{
+
+    margin-left: 0px;
+}
+#faq-time .player .player_item ul{
+    position: relative;
+}
+#faq-time .player .player_item ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#faq-time .player .player_item .player1::before {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 330px;
+	left: 0;
+	box-shadow: 0px 1px 1px 0px #290a59; 
+}
+#faq-time .player .player_item .player2::before {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 400px;
+	left: 0;
+	box-shadow: 0px 1px 1px 0px #290a59; 
+}
+#faq-time .player .player_item .player3::before {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 470px;
+	left: 0;
+	box-shadow: 0px 1px 1px 0px #290a59; 
+}
+#faq-time .player .player_item .player4::before {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 540px;
+	left: 0;
+	box-shadow: 0px 1px 1px 0px #290a59; 
+}
+#faq-time .player .player_item .player5::before {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	top: 610px;
+	left: 0;
+	box-shadow: 0px 1px 1px 0px #290a59; 
+}
+/* faq sec ends */
+/* pyment sec starts */
+#pyment{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(#9d4dfb,#590fc9);
+}
+#pyment h3 {
+	text-shadow: 4px 5px 4px #290a59;
+}
+#pyment form input{
+    width: 80%;
+    outline: 0;
+    border: 1px solid #2e036e;
+    background: transparent;
+}
+#pyment form button {
+	background: transparent;
+	width: 10%;
+	outline: 0;
+	border: none;
+	border-bottom: 1px solid #2e036e;
+	border-right: 1px solid #2e036e;
+	border-top: 1px solid #2e036e;
+	margin-left: -5px;
+}
+/* pyment sec ends */
+/* footer sec start */
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #150035;
+}
+footer .footer_item .social_icon i:first-of-type{
+    margin-left: 0px;
+}
+footer .footer_item .social_icon i {
+	background: #8c3dee;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+	margin-left: 20px;
+	transition: all linear 0.4s;
+	-webkit-transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+	-ms-transition: all linear 0.4s;
+	-o-transition: all linear 0.4s;
+	text-shadow: 4px 5px 4px #290a59;
+	box-shadow: 0px 4px 0px 1px #430e93;
+}
+footer .footer_item .social_icon i:hover{
+    background: #ef30cd;
+    box-shadow: 0px 4px 0px 1px #b9079a;
+}
+footer .footer_item p{
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+footer .footer_item .footer_link .link{
+    margin-left: 50px;
+}
+footer .footer_item .footer_link .link:first-of-type{
+    margin-left: 0px;
+}
+footer .footer_item .footer_link .link a{
+    color: #fff;
+    line-height: 40px;
+    text-transform: capitalize;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+footer .footer_item .footer_link .link a:hover{
+    color: #fe39db;
+}
+footer .footer_item .pIcon img{
+    padding-right: 30px;
+}
+footer > p{
+    padding-top: 20px;
+    border-top: 1px solid #590fc9;
+}
+/* footer sec ends */
+
