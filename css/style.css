@@ -177,6 +177,10 @@ img{
 #funfact .countUp .countUp_item h2{
     background: linear-gradient(to top,#ffda26,#faa406);
     background-clip: text;
+    background-clip: text;
+	-ms-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
     color: transparent;
     padding: 10px;
  }
@@ -188,6 +192,10 @@ img{
  #releted_game h4{
     background: linear-gradient(to top,#f1a027,#f8da55);
     background-clip: text;
+    background-clip: text;
+	-ms-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
     color: transparent;
 }
 #releted_game .game_item{
@@ -264,6 +272,9 @@ img{
 #unlock .unlock_text h3{
     background: linear-gradient(to top,#ffda26,#faa406);
     background-clip: text;
+	-ms-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
     color: transparent;
     padding-bottom: 35px;
 }
@@ -316,6 +327,9 @@ box-shadow: 2px 5px 9px 0px #fe39db;
 #priceing .membership h2{
     background: linear-gradient(to top,#ffda26,#faa406);
     background-clip: text;
+	-ms-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
     color: transparent;
     
 }
@@ -386,17 +400,23 @@ box-shadow: 2px 5px 9px 0px #fe39db;
 	box-shadow: 0px 1px 1px 0px #290a59
 }
 #faq-time .faq h2{
-background: linear-gradient(to top,#ffda26,#faa406);
+    background: linear-gradient(to top,#ffda26,#faa406);
     background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     padding-bottom: 35px;
     
 }
 #faq-time .time h2{
     background: linear-gradient(to top,#ffda26,#faa406);
-        background-clip: text;
-        color: transparent;
-        padding-bottom: 35px;
+    background-clip: text;
+	-ms-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+    color: transparent;
+    padding-bottom: 35px;
 }
 #faq-time .time {
 	position: relative;
