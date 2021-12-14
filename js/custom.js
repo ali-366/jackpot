@@ -1,4 +1,8 @@
 
+
+
+
+
 var faq = document.getElementsByClassName("faq-page");
 var i;
 
@@ -54,4 +58,41 @@ setInterval(countdown,1000);
         vertical:true,
         centerMode: true,
       });
+
+    //   service slick
+  
+    $('.service').slick({
+      dots: false,
+      infinite: true,
+      arrows:false,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 4,
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 3,
+            infinite: true,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 4,
+            loops:true,
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 4
+          }
+        }
+      ]
+    });
   });
+
