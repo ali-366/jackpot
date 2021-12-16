@@ -140,8 +140,7 @@ img{
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
-	margin-top: -53px;
-}
+	margin-top: -53px;}
 #banner .banner .banner_text a{
   
         background: linear-gradient(#9e4efc,#570dc8);
@@ -170,7 +169,7 @@ img{
     position: absolute;
     top: -90px;
     left: 0;
-    z-index: 999;
+    z-index: 999;  
 }
 #service .service .service_item {
 	background: #570dc8;
@@ -290,13 +289,13 @@ img{
     -moz-transition: all linear 0.4s;
     -ms-transition: all linear 0.4s;
     -o-transition: all linear 0.4s;
-    box-shadow: 2px 5px 9px 0px #944bff;
+    box-shadow: 0px 4px 0px 1px #50058d;
     text-shadow: 4px 5px 4px #290a59;
 
 }
 #unlock .unlock_text a:hover{
 background: linear-gradient(#fe39db,#a60084);
-box-shadow: 2px 5px 9px 0px #fe39db;
+box-shadow: 0px 4px 0px 1px #fe39db;
 }
 /* unlock css ends */
 
@@ -309,13 +308,13 @@ box-shadow: 2px 5px 9px 0px #fe39db;
 }
 #priceing .membership .price_item{
     background: linear-gradient(#9e4efc,#570dc8);
-    padding-bottom: 30px;
     margin-top: 30px;
     transition: all linear 0.8s;
     -webkit-transition: all linear 0.8s;
     -moz-transition: all linear 0.8s;
     -ms-transition: all linear 0.8s;
     -o-transition: all linear 0.8s;
+    padding-bottom: 50px;
 }
 #priceing .membership .price_item h4{
     background: linear-gradient(#9e4efc,#570dc8);
@@ -325,10 +324,16 @@ box-shadow: 2px 5px 9px 0px #fe39db;
     -moz-transition: all linear 0.8s;
     -ms-transition: all linear 0.8s;
     -o-transition: all linear 0.8s;
+    opacity: 0;
+    box-shadow: 0px 4px 0px 1px #6907b9;
+    
 }
 #priceing .membership .price_item:hover{
-
     margin-top: 0;
+}
+#priceing .membership .price_item:hover h4{
+
+   opacity: 1;
 }
 #priceing .membership h2{
     background: linear-gradient(to top,#ffda26,#faa406);
@@ -346,31 +351,47 @@ box-shadow: 2px 5px 9px 0px #fe39db;
     -ms-transition: all linear 0.4s;
     -o-transition: all linear 0.4s;
     text-shadow: 4px 5px 4px #290a59;
+    
 }
+#priceing .membership .price_item:hover h2{
+    padding: 20px 0px;
+    
+}
+
 
 #priceing .membership .price_item:hover h4{
     background: linear-gradient(#fe39db,#a60084);
+
 
 }
 #priceing .membership .price_item .price p{
     border-bottom: 1px solid #777;
     padding-bottom: 20px;
+    display: block;
+}
+#priceing .membership .price_item ul li{
+    line-height: 30px;
+}
+#priceing .membership .price_item:hover .price p{
+  
+    padding-bottom: 20px;
 }
 #priceing .membership .price_item .cta_btn{
     position: relative;
 }
+
 #priceing .membership .price_item .cta_btn a{
     padding: 10px 15px;
     background: linear-gradient(#9e4efc,#570dc8);
     transition: all linear 0.4s;
-    box-shadow: 2px 5px 9px 0px #944bff;
+    box-shadow: 0px 4px 0px 1px #b9079a;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     position: absolute;
-    top: 0;
+    top: 20px;
     left: 50%;
     text-shadow: 4px 5px 4px #290a59;
     transform: translateX(-50%);
@@ -381,7 +402,7 @@ box-shadow: 2px 5px 9px 0px #fe39db;
 }
 #priceing .membership .price_item:hover .cta_btn a{
       background: linear-gradient(#fe39db,#a60084);
-      box-shadow: 2px 5px 9px 0px #fe39db;
+      box-shadow: 0px 4px 0px 1px #b9079a;
 }
 /* faq sec start */
 #faq-time{
@@ -580,6 +601,7 @@ flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
     background: linear-gradient(#9d4dfb,#590fc9);
+    box-shadow: 0px 4px 0px 1px #b9079a;
 }
 #pyment h3 {
 	text-shadow: 4px 5px 4px #290a59;
@@ -606,6 +628,7 @@ footer{
     padding-top: 50px;
     padding-bottom: 50px;
     background: #150035;
+    position: relative;
 }
 footer .footer_item .social_icon i:first-of-type{
     margin-left: 0px;
@@ -661,6 +684,46 @@ footer .footer_item .pIcon img{
 footer > p{
     padding-top: 20px;
     border-top: 1px solid #590fc9;
+}
+footer > p::after {
+   content: '';
+   width: 70px;
+   height: 1px;
+   position: absolute;
+   bottom: 94px;
+   right: 100px;
+   box-shadow: 0px 0px 0px 1px #430e93;
+   animation: fo_shadow  4s linear 0s infinite alternate;
+   -webkit-animation: fo_shadow  4s linear 0s infinite alternate;
+}
+@keyframes fo_shadow {
+    0%{
+        right: 4%;
+    }
+    100%{
+        right:90%;
+    }
+}  
+    
+
+footer > p::before {
+	content: '';
+	width: 70px;
+	height: 1px;
+	position: absolute;
+	bottom: 94px;
+	left: 100px;
+	box-shadow: 0px 0px 0px 1px #430e93;
+	animation: fo_shadow 4s linear 0s infinite alternate;
+	-webkit-animation: fo_shadow2 4s linear 0s infinite alternate;
+}
+@keyframes fo_shadow2 {
+    0%{
+        left: 4%;
+    }
+    100%{
+        left:90%;
+    }
 }
 /* footer sec ends */
 

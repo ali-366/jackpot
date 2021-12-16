@@ -4,6 +4,9 @@
         margin-bottom: 20px;
 
     }
+    .navbar-light .navbar-brand {
+        margin-bottom: 30px;
+    }
     #banner .banner .banner_text h2 {
         font-size: 200px !important;
     }
@@ -75,7 +78,7 @@
     }
     #priceing {
         
-        height: 1390px;
+        height: 1530px;
        
     }
     #releted_game {
@@ -96,7 +99,35 @@
     #banner .banner .banner_text p:last-of-type {
         margin-left: 0px;
     }
+    #faq-time .time .count_rutin .countDown .main .play_time {
+        width: 60px;
+        height: 60px;
+        border: 1px solid #f1a027;
+        font-size: 22px;
+        text-transform: capitalize;
+        margin-left: 5px;
+        color: #f1a027;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    #faq-time .time .count_rutin .countDown .main .play_time p{
+        font-size: 16px;
+    }
+    .py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 3rem !important;
+        padding-right: 40px;
+    }
 }
+
+/* =============
+     small device 
+     =============== */
+
+
 @media (min-width:576px) and (max-width:767px) {
     #funfact .countUp .countUp_item {
         margin-bottom: 20px;

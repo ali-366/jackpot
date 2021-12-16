@@ -65,23 +65,23 @@ setInterval(countdown,1000);
       dots: false,
       infinite: true,
       arrows:false,
-      speed: 300,
+      autoplay:true,
       slidesToShow: 3,
-      slidesToScroll: 4,
+      slidesToScroll: 1,
       responsive: [
         {
           breakpoint: 992,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 3,
+            slidesToShow: 3,
+            slidesToScroll: 1,
             infinite: true,
           }
         },
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 4,
+            slidesToShow: 2,
+            slidesToScroll: 1,
             loops:true,
           }
         },
@@ -89,7 +89,7 @@ setInterval(countdown,1000);
           breakpoint: 576,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 4
+            slidesToScroll: 1
           }
         }
       ]
